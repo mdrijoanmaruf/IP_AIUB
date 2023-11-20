@@ -346,7 +346,7 @@ for (int i : myNumbers) {
 }
 ```
 
-### Multidimenstional Arrays :
+## Multidimenstional Arrays :
 **2D**
 ```c++
 string letters[2][4] = {
