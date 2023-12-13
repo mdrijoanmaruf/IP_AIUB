@@ -122,7 +122,6 @@ int main() {
     China
 
 ## 3. Develop a program that has a 2D array that can hold floating point numbers. The 2D array has 2 rows and four columns. The program finds the largest element from the first row, the smallest element from the second row, multiplies them and displays the largest element, smallest element as well as the multiplied result.
-￼
 ```c++
 #include <iostream>
 using namespace std;
