@@ -152,34 +152,6 @@ int main() {
 
   return 0;
 }
-#include <iostream>
-using namespace std;
-
-int main() {
-  float array[2][4] = {{12.34, 56.78, 90.12, 34.56},
-                         {23.45, 67.89, 10.12, 45.67}};
-
-  float large = array[0][0];
-  for (int i = 1; i < 4; i++) {
-    if (array[0][i] > large) {
-      large = array[0][i];
-    }
-  }
-
-  float small = array[1][0];
-  for (int i = 1; i < 4; i++) {
-    if (array[1][i] < small) {
-      small = array[1][i];
-    }
-  }
-
-  float product = large * small;
-  cout << "Largest element in the first row: " << large << endl;
-  cout << "Smallest element in the second row: " << small << endl;
-  cout << "Product of largest and smallest elements: " << product << endl;
-
-  return 0;
-}
 ```
 
 ### Output :
